@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: linear-gradient(to bottom right, #60a5fa, #3b82f6);    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper{
+    width: 30vw;
+    height: 90vh;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1.5rem;
+    min-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+    padding: 0.7em;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus{
+    outline: none;
+    border-color: #3b82f6; 
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7); 
+}
+.search-button{
+    padding: 12px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #3b82f6; 
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.header{
+    height: 30VH;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.location{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+}
+.temperature{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+}
+.condition{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+}
+.details{
+  width: 25vw;
+  min-width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.details p{
+    color: white;
+    font-family: arial;
+}
+
+.line{
+    width: 90%;
+    background-color: white;
+    height: 1px;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    font-family: arial;
+    
+}
+
+.week-forecast{
+    width: 90%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-forecast{
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.week-day{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
