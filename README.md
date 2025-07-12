@@ -1,3 +1,74 @@
+🌦 Weather Forecast App
+
+A simple React-based weather application that shows the current weather and 5-day forecast for any city using the OpenWeatherMap API.
+
+🚀 Features
+
+Search weather by city name
+
+Displays:
+
+Current temperature
+
+Weather conditions
+
+Humidity
+
+Wind speed
+
+
+5-day weather forecast (one update per day)
+
+Responsive and user-friendly UI
+
+
+📸 Preview
+
+<img width="871" height="727" alt="image" src="https://github.com/user-attachments/assets/0f97966a-d473-4193-8331-9d36b1267833" />
+
+
+🛠 Tech Stack
+
+React (Hooks: useState, useEffect)
+
+OpenWeatherMap API
+
+HTML/CSS
+
+
+📦 Installation
+
+1. Clone the repository
+
+git clone https://github.com/your-username/weather-forecast-app.git
+cd weather-forecast-app
+
+
+2. Install dependencies
+
+npm install
+
+
+3. Start the development server
+
+npm start
+
+
+
+🔐 API Key
+
+This app uses the OpenWeatherMap API. You need an API key to fetch weather data.
+
+1. Sign up at OpenWeatherMap.
+
+
+2. Replace the API key in App.js:
+
+const apiKey = "YOUR_API_KEY_HERE";
+
+> ⚠ Important: Never expose your API key in production apps.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
